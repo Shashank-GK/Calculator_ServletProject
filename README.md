@@ -101,3 +101,11 @@ To clone the repository, run the following command:
 ```bash
 git clone https://github.com/Shashank-GK/Calculator_ServletProject.git
 ```
+
+## Image Preview
+
+### Addition Operation
+![Addition Operation](images/Addition.png)
+
+### Index Page
+![Index Page](images/index.png)
