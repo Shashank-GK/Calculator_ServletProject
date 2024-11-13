@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator WebApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: rgb(218, 214, 236);
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        border-bottom: 2px solid #007bff;
+      }
+
+      .navbar {
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        color: #fdfeff;
+      }
+
+      p {
+        font-size: 1.2rem;
+        color: #6c757d;
+      }
+
+      .btn-primary {
+        background-color: rgba(167, 139, 250, 1);
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        margin: 10px;
+        width: 200px;
+        border-radius: 5px;
+      }
+
+      .btn-primary:hover {
+        background-image: radial-gradient(
+          circle farthest-corner at center,
+          #18c9ae 0%,
+          rgba(167, 139, 250, 1)
+        );
+        color: black;
+        border-color: #004085;
+      }
+
+      .container {
+        max-width: 800px;
+        background-color: #343a40;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .container a {
+        text-decoration: none;
+      }
+
+      .footer {
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #343a40;
+        color: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Calculator WebApp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Used Technologies
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML5 + CSS3</a></li>
+                <li><a class="dropdown-item" href="#">Java Servlet</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Java Servlet API 4.0.1</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+      <h1 style="color: white">Welcome to Calculator Web App</h1>
+      <p class="mt-3">
+        Want to perform the Calculation? Here is our web Calculator!
+      </p>
+      <div>
+        <a href="addition.html">
+          <button type="button" class="btn btn-primary">
+            <b>Addition</b>
+          </button> </a
+        ><br />
+        <a href="subtraction.html">
+          <button type="button" class="btn btn-primary">
+            <b>Subtraction</b>
+          </button> </a
+        ><br />
+        <a href="multiplication.html">
+          <button type="button" class="btn btn-primary">
+            <b>Multiplication</b>
+          </button> </a
+        ><br />
+        <a href="division.html">
+          <button type="button" class="btn btn-primary">
+            <b>Division</b>
+          </button> </a
+        ><br />
+        <a href="modulus.html">
+          <button type="button" class="btn btn-primary"><b>Modulus</b></button>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Calculator WebApp &copy; 2024</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<!-- SERVLET TAGS -->
+	<!-- Addition -->
+	<servlet>
+		<servlet-name>ADD</servlet-name>
+		<servlet-class>com.jsp.servlet.AdditionServlet</servlet-class>
+	</servlet>
+	<!-- Subtraction -->
+	<servlet>
+		<servlet-name>SUBTRACTION</servlet-name>
+		<servlet-class>com.jsp.servlet.SubtractionServlet</servlet-class>
+	</servlet>
+	<!-- Multiplication -->
+	<servlet>
+		<servlet-name>MULTIPLICATION</servlet-name>
+		<servlet-class>com.jsp.servlet.MultiplicationServlet</servlet-class>
+	</servlet>
+	<!-- Division -->
+	<servlet>
+		<servlet-name>DIVISION</servlet-name>
+		<servlet-class>com.jsp.servlet.DivisionServlet</servlet-class>
+	</servlet>
+	<!-- Modulus -->
+	<servlet>
+		<servlet-name>MODULUS</servlet-name>
+		<servlet-class>com.jsp.servlet.ModulusServlet</servlet-class>
+	</servlet>
+
+	<!-- SERVLET MAPPING TAGS -->
+	<!-- ADDITION -->
+	<servlet-mapping>
+		<servlet-name>ADD</servlet-name>
+		<url-pattern>/add-numbers</url-pattern>
+	</servlet-mapping>
+
+	<!-- Subtraction -->
+	<servlet-mapping>
+		<servlet-name>SUBTRACTION</servlet-name>
+		<url-pattern>/subtract-numbers</url-pattern>
+	</servlet-mapping>
+
+	<!-- Multiplication -->
+	<servlet-mapping>
+		<servlet-name>MULTIPLICATION</servlet-name>
+		<url-pattern>/multipliy-numbers</url-pattern>
+	</servlet-mapping>
+
+	<!-- Division -->
+	<servlet-mapping>
+		<servlet-name>DIVISION</servlet-name>
+		<url-pattern>/division-numbers</url-pattern>
+	</servlet-mapping>
+	<!-- Modulus -->
+	<servlet-mapping>
+		<servlet-name>MODULUS</servlet-name>
+		<url-pattern>/modulus-numbers</url-pattern>
+	</servlet-mapping>
+
+</web-app>
