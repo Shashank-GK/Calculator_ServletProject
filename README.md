@@ -42,9 +42,9 @@ mvn clean install
 2 .Configure the servlet container (Tomcat) and run the project.
 
 ### Usage
-Open the browser and go to http://localhost:8080/Calculator_ServletProject/.
-Select the desired operation (Addition, Subtraction, Multiplication, etc.).
-Enter two numbers and click on "Submit" to see the result.
+- Open the browser and go to http://localhost:8080/Calculator_ServletProject/.
+- Select the desired operation (Addition, Subtraction, Multiplication, etc.).
+- Enter two numbers and click on "Submit" to see the result.
 
 ### Project Structure
 Calculator_ServletProject/
@@ -75,11 +75,11 @@ Calculator_ServletProject/
 └── target/
     └── Calculator_ServletProject.war
 ### Explanation of Project Structure:
-src/main/java/com/jsp/servlet/: Contains all the servlet classes (AdditionServlet, DivisionServlet, MultiplicationServlet, etc.) which handle the logic for each arithmetic operation.
-src/main/webapp/: Contains HTML files for user input for each operation (addition.html, subtraction.html, multiplication.html, etc.) and a WEB-INF/web.xml file for servlet configuration.
-pom.xml: The Maven build file that includes project dependencies and plugins.
-target/: The compiled project artifacts, including the .war file used for deployment.
-Contributing
+- src/main/java/com/jsp/servlet/: Contains all the servlet classes (AdditionServlet, DivisionServlet, MultiplicationServlet, etc.) which handle the logic for each arithmetic operation.
+- src/main/webapp/: Contains HTML files for user input for each operation (addition.html, subtraction.html, multiplication.html, etc.) and a WEB-INF/web.xml file ## for servlet configuration.
+- pom.xml: The Maven build file that includes project dependencies and plugins.
+- target/: The compiled project artifacts, including the .war file used for deployment.
+
 ### Feel free to fork this repository, create a branch, and submit a pull request for any bug fixes or improvements.
 
 ### Clone the Repository
