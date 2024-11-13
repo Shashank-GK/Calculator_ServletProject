@@ -105,7 +105,7 @@ git clone https://github.com/Shashank-GK/Calculator_ServletProject.git
 ## Image Preview
 
 ### Addition Operation
-![Addition Operation](images/Addition.png)
+![Addition Operation](/Addition.png)
 
 ### Index Page
-![Index Page](images/index.png)
+![Index Page](/index.png)
